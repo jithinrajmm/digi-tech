@@ -144,6 +144,8 @@ USE_I18N = True
 
 USE_TZ = True
 
+CSRF_TRUSTED_ORIGINS= ['http://3.108.51.168/','http://ec2-3-108-51-168.ap-south-1.compute.amazonaws.com']
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
